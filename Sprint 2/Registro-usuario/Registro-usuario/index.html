@@ -20,15 +20,15 @@
 				<div class="cbp-mc-column">
 				    <form class="cbp-mc-form">
 						<label for="first_name">Nombre <span>*</span></label>
-	  					<input type="text" id="first_name" name="first_name" placeholder="Nombre ususario">
+	  					<input type="text" id="first_name" name="first_name" placeholder="Nombre ususario" required>
 	  					<label for="last_name">Apellido </label>
 	  					<input type="text" id="last_name" name="last_name" placeholder="Apellido">
 	  					<label for="email">Correo electronico <span>*</span></label>
-	  					<input type="text" id="email" name="email" placeholder="correo@correo.com">
-	  					<label for="phone">Número celular</label>
-	  					<input type="text" id="phone" name="phone" placeholder="+351 999 999">
+	  					<input type="email" id="email" name="email" placeholder="correo@correo.com" required>
+	  					<label for="phone" >Número celular</label>
+	  					<input type="text" title="Este número no es valido" pattern="1234567890" id="phone" name="phone" placeholder="+351 999 999">
 	  					<label for="country">Ciudad</label>
-	  					<select id="country" name="country">
+	  					<select id="country" name="country" required>
 	  						<option>Elige una ciudad</option>
 			  				<option>Bogotá	</option>
 							<option>Medellín	</option>
@@ -64,8 +64,9 @@
 							<option>Riohacha</option>
 	  					</select>
 	  					<label for="password">Contraseña <span>*</span></label>
-	  					<input type="password" id="password" name="password" placeholder="Contraseña">
-	  					<div class="text-ok">Los campos marcados con <div>*</div> son obligatorio</div>
+	  					<input type="password" id="password" name="password" placeholder="Contraseña" required>
+	  					<br>
+	  					<div class="text-ok">Los campos marcados con <span>*</span> son obligatorio</div>
 	  				<div class="cbp-mc-submit-wrap"><input class="cbp-mc-submit" type="submit" value="Envias información" /></div>
 				</form>
 			  </div>	
