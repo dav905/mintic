@@ -13,24 +13,24 @@
 }
 
 .cbp-mc-column:nth-child(2) {
-	    width: 49%;
-    padding: 0px 25px;
-    display: inline-block;
+	width: 30%;
+	padding: 10px 30px;
+	display: inline-block;
 }
 .cbp-mc-column {
-	width: 50%;
-    padding: 0px 25px;
-    display: inline-block;
-    vertical-align: top;
+	width: 67%;
+	padding: 10px 30px;
+	display: inline-block;
+	vertical-align: top
 }
 
 .cbp-mc-form label {
 	display: block;
-    padding: 13px 5px 5px 2px;
-    font-size: 1em;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    cursor: pointer;
+	padding: 40px 5px 5px 2px;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	cursor: pointer;
 }
 
 .cbp-mc-form input,
@@ -60,7 +60,7 @@
 .cbp-mc-form label:active + input,
 .cbp-mc-form label:active + textarea {
 	outline: none;
-	border: 3px solid #ccc;
+	border: 3px solid #10689a;
 }
 
 .cbp-mc-form select:focus {
@@ -68,22 +68,22 @@
 }
 
 ::-webkit-input-placeholder { /* WebKit browsers */
-    color: #ccc;
+    color: #10689a;
     font-style: italic;
 }
 
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color: #ccc;
+    color: #10689a;
     font-style: italic;
 }
 
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color: #ccc;
+    color: #10689a;
     font-style: italic;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10+ */
-    color: #ccc;
+    color: #10689a;
     font-style: italic;
 }
 
@@ -94,7 +94,7 @@
 }
 
 .cbp-mc-form input.cbp-mc-submit {
-	background: #555;
+	background: #10689a;
 	border: none;
 	color: #fff;
 	width: auto;
@@ -108,7 +108,7 @@
 }
 
 .cbp-mc-form input.cbp-mc-submit:hover {
-	background: #333;
+	background: #1478b1;
 }
 
 @media screen and (max-width: 70em) {
